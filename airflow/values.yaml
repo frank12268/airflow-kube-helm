@@ -46,7 +46,7 @@ airflow:
 
   logs:
     persistence:
-      accessMode: ReadWriteOnce
+      accessMode: ReadWriteMany
       ##
       ## Persistent Volume Storage Class
       ## If defined, storageClassName: <storageClass>
@@ -74,7 +74,7 @@ airflow:
       enabled: false
       ##
       ## Volume access mode
-      accessMode: ReadWriteOnce
+      accessMode: ReadWriteMany
       ##
       ## Persistent Volume Storage Class
       ## If defined, storageClassName: <storageClass>
@@ -258,4 +258,4 @@ postgresql:
     # storageClass: classname
     ##
     ## Access mode:
-    accessMode: ReadWriteOnce
+    accessMode: ReadWriteMany

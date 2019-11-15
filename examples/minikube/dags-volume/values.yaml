@@ -32,4 +32,4 @@ postgresql:
   postgresDatabase: airflow
   persistence:
     enabled: true
-    accessMode: ReadWriteOnce
+    accessMode: ReadWriteMany

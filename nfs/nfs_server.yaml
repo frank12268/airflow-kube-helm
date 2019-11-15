@@ -54,7 +54,7 @@ metadata:
   name: nfs-server-volume
 spec:
   accessModes:
-    - ReadWriteOnce
+    - ReadWriteMany
   resources:
     requests:
       storage: 10Gi
